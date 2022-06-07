@@ -17,8 +17,10 @@ export default function Home() {
       <main>
         <Navbar />
         <Header title="color reel" />
-        <div className="py-10 flex items-center justify-center">
-          <ReactPlayer url="https://vimeo.com/701093918" width="100%" height="100%" responsive="true" />  
+        <div className="py-4">
+          <div className="player-wrapper">
+            <ReactPlayer />
+          </div>
         </div>
       </main>
 

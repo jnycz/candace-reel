@@ -3,14 +3,12 @@ import ReactPlayer from "react-player"
 
 function App() {
   return (
-    <div className='player-wrapper'>
-        <ReactPlayer
-        className='react-player'
-        url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
-        width='100%'
-        height='100%'
-        />
-    </div>
+    <ReactPlayer
+    className='react-player'
+    url='https://vimeo.com/701093918'
+    width='100%'
+    height='100%'
+    />
   )
 }
 

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "@components/Header";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -14,10 +15,26 @@ export default function About() {
 
       <main>
         <Navbar />
-        <Header title="About" />
-        <div className="py-10">
-          <p>Morbi cursus eros nunc, eu rutrum ipsum scelerisque sed. Phasellus ac nisi eu ex pellentesque suscipit placerat sit amet justo. Donec ante lorem, interdum eget odio non, egestas dignissim libero. Nam semper ex nunc, sit amet suscipit tellus varius sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, dolor at imperdiet dapibus, libero est finibus erat, eget cursus nisl magna rhoncus neque. Cras semper, augue ac blandit laoreet, ligula lacus faucibus nisl, vel consectetur ipsum felis at dui. Donec lectus ex, malesuada eget eleifend non, luctus at ante. Etiam tempus quam in vehicula suscipit. Nam enim ligula, cursus nec tempor sit amet, congue et tortor.</p>
-          <p>Cras iaculis libero non sem efficitur finibus. Morbi in tellus dui. Vestibulum tincidunt interdum lacus, sit amet lacinia sem convallis sed. Nullam facilisis arcu non blandit malesuada. Curabitur id lectus sed odio eleifend consectetur. Nulla lacinia lorem vel faucibus tempor. Proin sit amet condimentum velit. Fusce maximus mollis maximus. Integer tellus dui, hendrerit ac suscipit vulputate, bibendum vitae velit. Maecenas non dolor consequat, mattis ante ullamcorper, blandit mi.</p>
+        <Header title="about" />
+        <div className="py-8">
+          <p>
+            Candace has been a colorist for over 12 years and has focused
+            primarily on commercials and documentaries. She believes that color
+            is magical and necessary in every application, and particularly
+            lends itself to the movement of a narrative. She is also a
+            practicing painter that emphasizes color theory and color's ability
+            to unite and disrupt.
+          </p>
+          <p>
+            <Link href="https://www.imdb.com/name/nm4101601/?ref_=fn_al_nm_1">
+              <a className="underline">IMDB</a>
+            </Link>
+          </p>
+          <p>
+            <Link href="https://commonwealthandcouncil.com/exhibitions/does-your-house-have-lions">
+              <a className="underline">Does your house have lions</a>
+            </Link>
+          </p>
         </div>
       </main>
 

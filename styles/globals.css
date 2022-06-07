@@ -37,3 +37,10 @@ body {
   top: 0;
   left: 0;
 }
+
+.video-wrapper {
+  max-width: 880px;
+  border: 2px solid red;
+  position: relative;
+  height:
+}

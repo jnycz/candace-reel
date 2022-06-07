@@ -15,10 +15,13 @@ export default function Header({ title }) {
         </div>
         <div className="flex lg:flex lg:items-center lg:w-auto">
           <div className="flex  justify-end text-sm lg:flex-grow">
+            <Link href="/">
+              <a className="block mt-4 lg:inline-block lg:mt-0  hover:text-white mr-4 ">color reel</a>
+            </Link>
             <Link href="/about">
               <a className="block mt-4 lg:inline-block lg:mt-0  hover:text-white mr-4">about</a>
             </Link>
-            <Link href="/contact" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white">
+            <Link href="/contact" >
               <a className="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4">contact</a>
             </Link>
           </div>
