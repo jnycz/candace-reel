@@ -8,6 +8,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.11",
     "autoprefixer": "10.4.5",
     "flowbite": "^1.4.7",
     "i": "^0.3.7",
