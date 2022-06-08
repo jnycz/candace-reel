@@ -16,7 +16,7 @@ export default function About() {
       <main>
         <Navbar />
         <Header title="about" />
-        <div className="py-8">
+        <div className="py-4">
           <p>
             Candace has been a colorist for over 12 years and has focused
             primarily on commercials and documentaries. She believes that color

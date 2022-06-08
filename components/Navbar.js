@@ -5,24 +5,24 @@ export default function Header({ title }) {
   return (
     <>
       <nav className="flex items-center justify-between flex-wrap py-3">
-        <div className="flex items-center flex-shrink-0  mr-6">
+        <div className="flex items-center flex-shrink-0">
         <Link href="/">
-            <a className="block mt-4 lg:inline-block lg:mt-0 mr-4"><span className="text-xl tracking-tight">CANDACE NYCZ</span></a>
+            <a className="block lg:inline-block lg:mt-0 "><span className="text-xl tracking-tight">CANDACE NYCZ</span></a>
         </Link>
         </div>
-        <div className="flex items-center flex-shrink-0 mr-6">
+        <div className="flex items-center flex-shrink-0">
           colorist
         </div>
         <div className="flex lg:flex lg:items-center lg:w-auto">
           <div className="flex  justify-end text-sm lg:flex-grow">
             <Link href="/">
-              <a className="block mt-4 lg:inline-block lg:mt-0  hover:underline mr-4 ">color reel</a>
+              <a className="block lg:inline-block lg:mt-0  hover:underline">color reel</a>
             </Link>
             <Link href="/about">
-              <a className="block mt-4 lg:inline-block lg:mt-0  hover:underline mr-4">about</a>
+              <a className="block lg:inline-block lg:mt-0  hover:underline ml-4">about</a>
             </Link>
             <Link href="/contact" >
-              <a className="block mt-4 lg:inline-block lg:mt-0 hover:underline mr-4">contact</a>
+              <a className="block lg:inline-block lg:mt-0 hover:underline ml-4">contact</a>
             </Link>
           </div>
         </div>
