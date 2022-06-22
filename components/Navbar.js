@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 export default function Header({ title }) {
@@ -15,15 +16,15 @@ export default function Header({ title }) {
         </div>
         <div className="flex lg:flex lg:items-center lg:w-auto">
           <div className="flex  justify-end text-sm lg:flex-grow">
-            <Link href="/">
+            <AnchorLink href="#reel">
               <a className="block lg:inline-block lg:mt-0  hover:underline">color reel</a>
-            </Link>
-            <Link href="/about">
+            </AnchorLink>
+            <AnchorLink href="#about">
               <a className="block lg:inline-block lg:mt-0  hover:underline ml-4">about</a>
-            </Link>
-            <Link href="/contact" >
+            </AnchorLink>
+            <AnchorLink href="#contact">
               <a className="block lg:inline-block lg:mt-0 hover:underline ml-4">contact</a>
-            </Link>
+            </AnchorLink>
           </div>
         </div>
       </nav>
