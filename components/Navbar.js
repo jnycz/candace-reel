@@ -16,14 +16,14 @@ export default function Header({ title }) {
         </div>
         <div className="flex lg:flex lg:items-center lg:w-auto">
           <div className="flex  justify-end text-sm lg:flex-grow">
-            <AnchorLink href="#reel">
-              <a className="block lg:inline-block lg:mt-0  hover:underline">color reel</a>
+            <AnchorLink href="#reel" className="block lg:inline-block lg:mt-0  hover:underline">
+              color reel
             </AnchorLink>
-            <AnchorLink href="#about">
-              <a className="block lg:inline-block lg:mt-0  hover:underline ml-4">about</a>
+            <AnchorLink href="#about" className="block lg:inline-block lg:mt-0  hover:underline ml-4">
+              about
             </AnchorLink>
-            <AnchorLink href="#contact">
-              <a className="block lg:inline-block lg:mt-0 hover:underline ml-4">contact</a>
+            <AnchorLink href="#contact" className="block lg:inline-block lg:mt-0 hover:underline ml-4">
+              contact
             </AnchorLink>
           </div>
         </div>
