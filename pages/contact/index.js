@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import * as React from "react";
 import Header from "@components/Header";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
@@ -13,7 +13,7 @@ export default function Contact() {
         <meta name="robots" content="noindex"></meta>
       </Head>
 
-      <main>
+      <main> 
         <Navbar />
         <div className="max-w-5xl mx-auto px-4 md:px-0">
           <Header title="contact" />
@@ -25,23 +25,23 @@ export default function Contact() {
               method="POST" 
               data-netlify="true" 
               netlify-honeypot="bot-field"
+              action="/contact/thanks"
             >
               <div className="mb-4">
-                <label className="block text-gray-700 text-sm font-bold mb-2">Name: <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="name" /></label>
+                <label className="block text-gray-700 text-sm font-bold mb-2">Name: <input required={true} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="name" /></label>
               </div>
               <div className="mb-4">
-                <label className="block text-gray-700 text-sm font-bold mb-2">Company: <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="company" /></label>
+                <label className="block text-gray-700 text-sm font-bold mb-2">Company: <input required={true} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="company" /></label>
               </div>
               <div className="mb-4">
-                <label className="block text-gray-700 text-sm font-bold mb-2">Email: <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email" /></label>
+                <label className="block text-gray-700 text-sm font-bold mb-2">Email: <input required={true} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email" /></label>
               </div>
-
               <div className="mb-4">
-                <label className="block text-gray-700 text-sm font-bold mb-2">Message: <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="message"></textarea></label>
+                <label className="block text-gray-700 text-sm font-bold mb-2">Message: <textarea required={true} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="message"></textarea></label>
                 </div>
-              <p>
+              <div className="mb-4">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Send</button>
-              </p>
+              </div>
             </form>        
           </div>
         </div>
