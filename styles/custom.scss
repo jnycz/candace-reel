@@ -1,23 +1,15 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: #666;
-    color: #fff;
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
 }
 
-* {
-  box-sizing: border-box;
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-@layer base {
-  p {
-    @apply pb-4;
-  }
-  
-  ul {
-    @apply pb-4 pl-4 list-disc list-outside;
-  }
+nav {
+  box-shadow: 0px 10px 25px 0px rgb(18 18 18 / 5%);
 }

@@ -1,15 +1,16 @@
 import React from "react"
 import ReactPlayer from "react-player"
 
-function App() {
+function ReelVideo() {
   return (
     <ReactPlayer
     className='react-player'
     url='https://vimeo.com/701093918'
     width='100%'
     height='100%'
+    controls
     />
   )
 }
 
-export default App
+export default ReelVideo
