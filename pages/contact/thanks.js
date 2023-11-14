@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
-import ReactPlayer from "@components/ReactPlayer";
 import Header from "@components/Header";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
