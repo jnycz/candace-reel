@@ -10,6 +10,7 @@ export default function Contact() {
       <Head>
         <title>Candace Nycz | Colorist</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="robots" content="noindex"></meta>
       </Head>
 
       <main>
@@ -24,7 +25,6 @@ export default function Contact() {
               method="POST" 
               data-netlify="true" 
               netlify-honeypot="bot-field"
-              netlify
             >
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2">Name: <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="name" /></label>

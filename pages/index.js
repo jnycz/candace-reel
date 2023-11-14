@@ -11,6 +11,7 @@ export default function Home() {
       <Head>
         <title>Candace Nycz | Colorist</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="robots" content="noindex"></meta>
       </Head>
 
       <main>
