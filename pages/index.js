@@ -52,7 +52,7 @@ export default function Home() {
             <div className="py-4">
             <h2 className="text-xl pb-4" id="contact">contact</h2>
             <Link href="/contact">
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Get in touch</button>
+              <button className="bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">contact</button>
             </Link>
           </div>
         </div>
