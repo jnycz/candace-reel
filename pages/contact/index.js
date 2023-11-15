@@ -22,8 +22,8 @@ export default function Contact() {
               className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" 
               name="contact" 
               method="POST" 
-              netlify="true" 
-              netlify-honeypot="bot-field"
+              data-netlify="true" 
+              data-netlify-honeypot="bot-field"
               action="/contact/thanks/"
               hidden
             >
