@@ -22,11 +22,13 @@ export default function Contact() {
               className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" 
               name="contact" 
               method="POST" 
-              data-netlify="true" 
-              data-netlify-honeypot="bot-field"
+              netlify="true" 
+              netlify-honeypot="bot-field"
               action="/contact/thanks/"
+              hidden
             >
               <input name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2">
                   Name: <input required={true} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="name" />
