@@ -23,8 +23,8 @@ export default function Contact() {
               name="contact" 
               method="POST" 
               data-netlify="true" 
-              netlify-honeypot="bot-field"
-              action="/contact/thanks"
+              data-netlify-honeypot="bot-field"
+              action="/contact/thanks/"
             >
               <input name="bot-field" />
               <div className="mb-4">
