@@ -51,7 +51,7 @@ export default function Home() {
             </p>
             </div>
             <div className="py-4">
-            <h2 className="text-xl pb-4" id="contact">contact</h2>
+            <h2 className="text-xl pb-4 invisible" id="contact">contact</h2>
             <Link href="/contact">
               <button className="bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">contact</button>
             </Link>
